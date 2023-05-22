@@ -1,4 +1,4 @@
-![](ic_launcher.png) # NotHz RefreshRate Control
+![](ic_launcher.png | width=100) # NotHz RefreshRate Control
 
 Simple app to change Nothing Phone (1) Refresh rate (60Hz/90Hz/120Hz) without ADB or root. 
 Thanks to Max Weinbach for finding this tweak, Rohit Shetty for testing this app and everyone who worked on PhoenixRefreshRateControl which this is based on.
