@@ -10,6 +10,8 @@ Info: This app targets older android sdk in order to set refresh rates without A
 Also it cannot stretch to 20:9 aspect ratio as the old SDK supports only 16:9 as it seems, so there is black bar at the bottom of the screen.
 
 <strong>QS tile changes refresh rate and shows current one</strong>
+
+
 <img src="tile.png" alt="Obrázek" width="200">
 
 <strong>Screenshot</strong>
