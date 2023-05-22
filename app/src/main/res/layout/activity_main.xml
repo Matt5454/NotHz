@@ -1,33 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<android.support.constraint.ConstraintLayout
+
         xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity"
         android:gravity="center"
-        android:layout_margin="16dp"
-        android:orientation="vertical">
+        android:layout_margin="0dp"
+        android:background="#e7e9e9"
+        android:fitsSystemWindows="true"
+        android:id="@+id/linearLayout">
 
     <Button
+            android:background="@drawable/roundbutton"
             android:id="@+id/set60"
             android:textAllCaps="false"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/set_60hz"/>
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            style="@style/AppTheme"
+            android:text="@string/set_60hz"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/set90"
+            android:layout_marginBottom="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
     <Button
             android:id="@+id/set90"
             android:textAllCaps="false"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/set_90hz"/>
+            android:background="@drawable/roundbutton"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:textSize="30sp"
+            android:text="@string/set_90hz"
+            app:layout_constraintBottom_toTopOf="@+id/set120"
+            android:layout_marginBottom="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
     <Button
             android:id="@+id/set120"
             android:textAllCaps="false"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/set_120hz" />
+            android:background="@drawable/roundbutton"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:textSize="30sp"
+            android:text="@string/set_120hz"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.835"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
-</LinearLayout>
+</android.support.constraint.ConstraintLayout>

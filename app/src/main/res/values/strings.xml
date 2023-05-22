@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">Refresh</string>
-    <string name="set_120hz">Set 120Hz</string>
-    <string name="set_60hz">Set 60Hz</string>
-    <string name="set_90hz">Set 90Hz</string>
+    <string name="app_name">NotHz</string>
+    <string name="set_120hz">120Hz</string>
+    <string name="set_60hz">60Hz</string>
+    <string name="set_90hz">90Hz</string>
 </resources>

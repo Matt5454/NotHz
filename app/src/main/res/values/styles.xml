@@ -1,7 +1,9 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="android:Theme.DeviceDefault.Light.NoActionBar">
+    <style name="AppTheme" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">#d7d8d8</item>
+        <item name="android:fontFamily">@font/ndot47</item>
     </style>
 
 </resources>

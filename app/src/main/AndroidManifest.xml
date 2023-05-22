@@ -18,24 +18,7 @@
             </intent-filter>
         </activity>
 
-        <service
-                android:name=".ControllerTile60"
-                android:icon="@drawable/ic_refresh_black_24dp"
-                android:label="@string/set_60hz"
-                android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
-            <intent-filter>
-                <action android:name="android.service.quicksettings.action.QS_TILE"/>
-            </intent-filter>
-        </service>
-        <service
-                android:name=".ControllerTile90"
-                android:icon="@drawable/ic_refresh_black_24dp"
-                android:label="@string/set_90hz"
-                android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
-            <intent-filter>
-                <action android:name="android.service.quicksettings.action.QS_TILE"/>
-            </intent-filter>
-        </service>
+
         <service
                 android:name=".ControllerTile120"
                 android:icon="@drawable/ic_refresh_black_24dp"
